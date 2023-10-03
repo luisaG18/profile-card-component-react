@@ -1,9 +1,17 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #259BA7;
+  background-color: #259ba7;
+}
+
+html {
+  height: 100vh;
 }
 
 body {
   margin: 0;
-  background-image: url('assets/bg-pattern-top.svg');
+  height: 100%;
+}
+
+#root {
+  height: 100%;
 }
