@@ -1,3 +1,5 @@
+$desktop: 1000px;
+
 body {
   height: 100vh;
   background-color: #259ba7;
@@ -5,4 +7,10 @@ body {
     url("../../assets/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
   background-position: bottom 327px right 177px, top 327px left 177px;
+}
+
+@media (min-width: $desktop) {
+  body {
+    background-position: bottom 288px right 673px, top 327px left 673px;
+  }
 }

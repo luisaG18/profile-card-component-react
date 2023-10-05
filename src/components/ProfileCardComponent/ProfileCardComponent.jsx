@@ -4,7 +4,7 @@ import imageAvatar from "../../assets/image-victor.jpg";
 
 function ProfileCardComponent() {
   return (
-    <>
+    <div className="container-principal">
       <div className="container">
         <div>
           <img src={imageTop} />
@@ -40,7 +40,7 @@ function ProfileCardComponent() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
