@@ -1,3 +1,8 @@
 body {
+  height: 100vh;
   background-color: #259ba7;
+  background-image: url("../../assets/bg-pattern-top.svg"),
+    url("../../assets/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 327px right 177px, top 327px left 177px;
 }
