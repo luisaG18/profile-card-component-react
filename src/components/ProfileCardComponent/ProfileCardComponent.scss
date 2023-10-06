@@ -24,7 +24,7 @@ $desktop: 1000px;
     position: absolute;
     top: 84px;
     left: 50%;
-    margin-left: -53px;
+    transform: translate(-53px, 0);
     border-radius: 50%;
     border: 5px solid #fff;
   }
