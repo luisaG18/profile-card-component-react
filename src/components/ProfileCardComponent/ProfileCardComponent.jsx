@@ -6,7 +6,7 @@ function ProfileCardComponent() {
   return (
     <div className="container-principal">
       <div className="container">
-        <div>
+        <div className="container-image">
           <img src={imageTop} />
           <img src={imageAvatar} />
         </div>
